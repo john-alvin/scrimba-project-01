@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+img {
+  width: 29px;
+}
+.container {
+  max-width: 550px;
+  background-color: #282d35;
+  max-height: 550px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 26px;
+  background-color: #21222a;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side .title {
+  font-size: 22px;
+  color: #61dafb;
+  font-weight: 700;
+}
+.right-side .right-text {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+main {
+  padding: 58px 28px;
+  position: relative;
+}
+.main-title {
+  font-size: 39px;
+  text-align: left;
+}
+.list-items {
+  margin: 46px 75px;
+}
+
+.list-items li {
+  padding: 10px 0;
+  list-style: none;
+  text-transform: capitalize;
+  position: relative;
+}
+
+li::before {
+  content: "\2022";
+  color: #61dafb;
+  position: absolute;
+  left: -25px;
+  top: 0;
+  font-size: 30px;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.react-big {
+  position: relative;
+  width: 115px;
+}
+
+.small-logo {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.small-logo img {
+  width: 20px;
+}
